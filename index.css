@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top , #f77062 , #fe5196 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    height: 85vh;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: #1a0d52;
+}
+
+.ball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+
+}
+
+.paddle{
+    height: 120px;
+    width: 15px;
+    background-color: #fe5196;
+    position: fixed;
+    border-radius: 2px;
+
+}
+.left{
+    top:40vh;
+    left:12vw ;
+}
+
+.right{
+    top:40vh;
+    right:12vw ;
+}
+
+.fa-circle{
+    color:yellow;
+    font-size: 2rem;
+}
+
+.scorecard{
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+}
+
+.seperator{
+    width:4px;
+    height: 70%;
+    background-color: black;
+
+}
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
