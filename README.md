@@ -1,2 +1,1 @@
-# Pong-Game
-Basic Pong Game Using Javascript
+<h1>Instructions</h1>
